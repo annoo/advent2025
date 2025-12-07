@@ -12,7 +12,6 @@ def read_input(input_data: str) -> list[str]:
 def solve_part1(input: str) -> int:
     return 1
 
-
 def solve_part2(input: str) -> int:
     return 1
 

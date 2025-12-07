@@ -7,8 +7,8 @@ test_input_part2 = "day4/test_input.txt"  # Change if part 2 has different examp
 @pytest.mark.parametrize(
     "part, input_data, expected_output",
     [
-        (1, test_input_part1, None),  # Replace None with expected answer
-        # (2, test_input_part2, None),  # Uncomment and add expected answer for part 2
+        (1, test_input_part1, 13),  # Replace None with expected answer
+        (2, test_input_part2, 43),  # Uncomment and add expected answer for part 2
     ],
 )
 def test_solve(part, input_data, expected_output):
