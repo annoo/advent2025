@@ -1,4 +1,4 @@
-puzzle_input: str = "day0/input.txt"
+puzzle_input: str = "day4/input.txt"
 
 
 def read_input(input_data: str) -> list[str]:
@@ -6,7 +6,7 @@ def read_input(input_data: str) -> list[str]:
         lines = input_data.strip().split('\n')
     else:
         with open(input_data, "r") as file:
-            lines = file.read().splitlines()
+            lines = file.readlines()
     return lines
 
 def solve_part1(input: str) -> int:
@@ -22,3 +22,4 @@ if __name__ == "__main__":
     solution2 = solve_part2(puzzle_input)
     print(f"\n\nsolution part 1 : {solution1}")
     print(f"\nsolution part 2 : {solution2}")
+
