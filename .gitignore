@@ -15,9 +15,9 @@ env/
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
+# Keep .vscode/ for shared editor settings
 
 # OS
 .DS_Store
