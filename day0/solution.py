@@ -9,10 +9,10 @@ def read_input(input_data: str) -> list[str]:
             lines = file.read().splitlines()
     return lines
 
-def solve_part1(input: str) -> int:
+def solve_part1(input_path: str) -> int:
     return 1
 
-def solve_part2(input: str) -> int:
+def solve_part2(input_path: str) -> int:
     return 1
 
 
